@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Resha | Premium Handcrafted Textiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ROYAL RESHA</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>The Art of Thread</h1>
+            <p>Experience the heritage of royal craftsmanship in every weave.</p>
+            <a href="#collections" class="btn">View Collections</a>
+        </div>
+    </header>
+
+    <section id="collections" class="container">
+        <h2 class="section-title">Signature Collections</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1583394838336-acd977730f8a?auto=format&fit=crop&w=500&q=80" alt="Silk">
+                <div class="card-info">
+                    <h3>Imperial Silks</h3>
+                    <p>Hand-woven gold-threaded luxury.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=500&q=80" alt="Cotton">
+                <div class="card-info">
+                    <h3>Heritage Weaves</h3>
+                    <p>Breathable elegance for every day.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1590736910118-500282676839?auto=format&fit=crop&w=500&q=80" alt="Embroidery">
+                <div class="card-info">
+                    <h3>Zardosi Specials</h3>
+                    <p>Ornate details for grand occasions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>Crafted with Patience</h2>
+            <p>At Royal Resha, we believe every piece of cloth tells a story. Our artisans have spent generations perfecting the "Resha" (thread) work that defines our brand.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2 class="section-title">Enquire Now</h2>
+        <div class="contact-wrapper">
+            <form id="contactForm" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Royal Resha. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
